@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" /> 
+        <title>ASMY une boutique en ligne</title>
+    </head>
+    
+    <body>
+        <div id="bloc_page">
+            <header>
+                <div id="titre_principal">
+                    <div id="logo">
+                        <img src="Logo.png" />
+                        <h2></h2>    
+                    </div>
+                    
+                </div>
+                
+                <nav>
+                    <ul>
+ 
+                        
+                        <li><div class="dropdown">
+                           <div class="dropbtn" ><a href="index.html">Acueil</a></div>
+                         
+                         
+                          </div></li>
+                
+                        <li><div class="dropdown">
+                            <div class="dropbtn"><a >Produits</a></div>
+                            <div class="dropdown-content">
+                              <a href="bijoux.html">Bijoux</a>
+                              <a href="accesoires.html">Accesoires</a>
+                              <a href="montres.html">Montres</a>
+                            </div>
+                          </div></li>
+                        <li><div class="dropdown">
+                            <div class="dropbtn" ><a href="index2.html">A propos</a></div>
+                         
+                          </div></li>
+                          <li><div class="dropdown">
+                            <div class="dropbtn" ><a href="index3.html">Contact</a></div>
+                         
+                          </div></li>
+                    </ul>
+                </nav>
+
+            </header>
+            
+            <div id="banniere_image">
+                                   <img src="ban2.png" /></a>
+          
+            <section>
+                
+                <article>
+                    <marquee>bienvenue chez votre é-boutique
+                 </marquee>
+   
+                
+
+                    
+                   
+                   <div id="p12">
+                    <div id="p16">
+                        <div id="prod7" style="border:2px dotted skyblue;align-content:center;border-radius: 25px;padding-bottom: 5px;">
+                            <img src="pannier.png" width="100" height="100" style="position: relative;padding-left: 150px;" >
+                            <label id="elements" style="position: relative;width: 120px;"></label><br>
+                            <a class="vert" style="color: black;position: relative;margin-left: 150px;margin-bottom:20px;" href="payement.html" >pret a payer </a> 
+
+                        </div>
+                    </div>
+                        <div id="prod1">
+                            <div class="bord">
+                            <img  src="ac1.png">  
+                             </div>
+                           <h2>Description</h2>
+                            <p>collier pendentif en alliage de boxe unisexeor taille unique</p>
+                            <h3>1000 Dhs</h3>
+                            <button class="vert" onclick="ajouterAuPanier('btnma','btnm11','btnm1',1000)" value="0" id="btnm11" >ajouter</button>
+                            <button class="rouge" id="btnm1" disabled=true  onclick="supprimerDuPanier('btnma','btnm11','btnm1',1000)">supprimer</button>
+                            <span class="rouge" id='btnma' >0</span>
+                        </div>
+                
+                        <div id="prod2">
+                            <img src="ac5.png">  
+                           <h2>Description</h2>
+                            <p>mannequins de mode bracelet noir punk en caoutchouc silicone acier onoxydable hommes bracelets-noir</p>
+                            <h3>800 Dhs</h3>
+                            <button class="vert" onclick="ajouterAuPanier('btnmd','btnm25','btnm5',800)" value="0" id='btnm25' >ajouter</button>
+                            <button  class="rouge" id="btnm5" disabled=true onclick="supprimerDuPanier('btnmd','btnm25','btnm5',800)" >supprimer</button>
+                            <span class="rouge" id='btnmd' >0</span>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="p13">
+
+                        <div id="prod3">
+                            <img src="m3.png">
+                            <h2>Description</h2>
+                            <p>bracelet de montre en diamons</p>
+                            <h3>1200 Dhs</h3>
+                            <button class="vert" onclick="ajouterAuPanier('btnmb','btnm23','btnm3',1200)" value="0" id='btnm23'>ajouter</button>
+                            <button class="rouge" id="btnm3" disabled=true onclick="supprimerDuPanier('btnmb','btnm23','btnm3',600)">supprimer</button>
+                            <span class="rouge" id='btnmb' >0</span>
+                        </div>
+
+                     </div>
+                     <br>
+                     <div id="p14">               
+                        <div id="prod5">
+                            <img src="m2.png">
+                            <h2>Description</h2>
+                            <p>montre en cuire boss </p>
+                            <h3>600 Dhs</h3>
+                            <button class="vert" onclick="ajouterAuPanier('btnma','btnm22','btnm2',600)" value="0" id='btnm22' >ajouter</button>
+                            <button class="rouge" id="btnm2" disabled=true onclick="supprimerDuPanier('btnma','btnm22','btnm2',1200)">supprimer</button>
+                            <span class="rouge" id='btnma' >0</span>
+                        </div>
+                    </div>
+                    <br>
+                   <div id="p15">
+                        <div id="prod4">
+                           <img src="bj4.png">  
+                            <h2>Description</h2> 
+                            <p>bijoux a pleine diamant mode pour femme-rose </p>
+                            <h3>270 Dhs</h3>
+                            <button class="vert"  onclick="ajouterAuPanier('btnmc','btnm24','btnm4',1300)" value="0" id='btnm24' >ajouter</button>
+                            <button class="rouge" id="btnm4" disabled=true onclick="supprimerDuPanier('btnmc','btnm24','btnm4',270)">supprimer</button>
+                            <span class="rouge" id="btnmc" >0</span>
+                         </div>
+
+                        <div id="prod6">
+                             <div id="prod3">
+                            <img src="bj3.png">
+                            <h2>Description</h2>
+                            <p>boucles d'oreilles en olatine ecologique argent</p>
+                            <h3>350 Dhs</h3>
+                            <button class="vert" onclick="ajouterAuPanier('btnmf','btnm23','btnm3',750)" value="0" id='btnm23'>ajouter</button>
+                            <button class="rouge" id="btnm3" disabled=true onclick="supprimerDuPanier('btnmf','btnm23','btnm3',350)">supprimer</button>
+                            <span class="rouge" id="btnmf" >0</span>
+                        </div>
+
+                        <br>
+
+                    </div>
+                    <br>
+                </article>
+               
+            </section>
+            
+    
+            <footer>
+              
+            </footer>
+        </div>
+        <script src="engine.js">
+
+            </script>
+            <style>
+               .vert{
+                border-radius: 25px;border: 2px solid green; background-color: green;
+               }
+               .rouge{
+                border-radius: 25px;border: 2px solid skyblue; background-color:skyblue;
+               }
+            </style>
+    </body>
+</html>
